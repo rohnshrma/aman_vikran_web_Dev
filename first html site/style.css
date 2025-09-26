@@ -1,25 +1,25 @@
-#main {
-  background-color: teal;
-  text-align: center;
-  font-style: 3rem;
-  font-family: cursive;
-  color: #fff;
-  padding: 2rem;
+h1 {
+  /* text size */
+  font-size: 40px;
+  /* text color */
+  color: Red;
+  /* text boldness */
+  font-weight: 100;
+  /* text font family */
+  font-family: Arial, Helvetica, sans-serif;
+  /* letter spacing */
+  letter-spacing: 10px;
+  /* text shadow */
+  /* x , y , b , c */
+  text-shadow: -2px 2px 0 blue;
+  /* text decoration : underline , overline, line through */
+
+  /* text-decoration: underline green dashed; */
+  /* text-decoration: overline green dashed; */
+  /* text-decoration: line-through green dashed; */
 }
 
-div {
-  height: 200px;
-  width: 200px;
-  background-color: red;
-}
-
-a {
-  height: 100px;
-  width: 100px;
-  background-color: red;
-}
-
-button {
-  height: 100px;
-  width: 100px;
+p {
+  text-align: justify;
+  line-height: 2;
 }
