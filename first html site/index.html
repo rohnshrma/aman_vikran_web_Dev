@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="this is just a practice website" />
+    <meta name="keywords" content="html css programming" />
+    <!-- <meta http-equiv="refresh" content="5" /> -->
+    <!-- <meta http-equiv="refresh" content="5; url=http://google.com" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+
+    <!-- internal :  styles are added inside of a style tag in head tag -->
+    <!-- 
+    <style>
+      h1 {
+        background-color: red;
+        color: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+      }
+
+      #main {
+        background-color: blue;
+      }
+    </style> -->
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>First HTML Site</title>
+  </head>
+  <body>
+    <!-- inline , block and inline-block -->
+
+    <!-- block level elements -->
+    <!-- 1. Take full width by default -->
+    <!-- 2. Start on a new line -->
+    <!-- 3. Do not allow other elements to sit beside them horizontally -->
+    <!-- 4. Can have padding and margin -->
+    <!-- Examples: h1-h6, p, div, etc. -->
+
+    <h1 id="main">Hello world</h1>
+    <h1>Hello world</h1>
+
+    <!-- inline elements -->
+    <!-- 1. Take only the width required by their content -->
+    <!-- 2. Do not start on a new line -->
+    <!-- 3. Allow other inline and inline-block elements beside them -->
+    <!-- 4. Typically don’t have default margin or padding -->
+    <!-- Examples: a, input, span, etc. -->
+
+    <a href="#">google</a>
+
+    <!-- inline-block elements -->
+    <!-- 1. Behave like inline elements but accept width, height, padding, margin -->
+    <!-- 2. Do not start on a new line, but allow block styling -->
+    <!-- Example: button -->
+    <button>submit</button>
+
+    <!-- div : block level container-->
+    <!-- doesn't have height of it's own , but takes full width-->
+    <!-- height depends upon content or specified in css -->
+
+    <div>hello</div>
+
+    <h1>
+      hello world this is
+      <div>vikram</div>
+    </h1>
+    <!-- span : inline level container-->
+    <!-- doesn't have height or width of it's own-->
+
+    <span>hello</span>
+
+    <!-- <h1 style="color: red; font-size: 4rem"> -->
+    <h1>
+      hello world this is
+      <span>vikram</span>
+    </h1>
+  </body>
+</html>

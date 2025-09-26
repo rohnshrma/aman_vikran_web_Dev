@@ -1,0 +1,25 @@
+#main {
+  background-color: teal;
+  text-align: center;
+  font-style: 3rem;
+  font-family: cursive;
+  color: #fff;
+  padding: 2rem;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+a {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+}
