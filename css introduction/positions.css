@@ -3,44 +3,37 @@
   padding: 0;
 }
 
+#parent {
+  background: #333;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
 .box {
   height: 100px;
   width: 100px;
 }
 
-/* position fixed */
-/* element moves in relation to the viewport */
+/* position absolute */
+/* element moves in relation to the viewport (by default) , but can be changed (by giving a position to the parent) */
 /* element doesn't remains part of document flow */
 
 .b1 {
   background-color: turquoise;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
 .b2 {
-  position: fixed;
+  background-color: wheat;
+  position: absolute;
   bottom: 0;
   right: 0;
-  background-color: wheat;
 }
 .b3 {
-  background-color: tomato;
-  position: fixed;
+  position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
+  background-color: tomato;
 }
 .b4 {
   background-color: mediumaquamarine;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 1001;
-}
-
-/* z-index : 1 default */
-
-p {
-  position: relative;
-  z-index: 1000;
 }
