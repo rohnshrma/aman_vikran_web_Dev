@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+/* position relative */
+/* element moves in relation to its orignal position */
+/* element remains part of document flow */
+
+.b1 {
+  background-color: turquoise;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+.b2 {
+  background-color: wheat;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+.b3 {
+  background-color: tomato;
+  position: relative;
+  bottom: 100px;
+  left: 300px;
+}
+.b4 {
+  background-color: mediumaquamarine;
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+}
