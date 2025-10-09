@@ -5,9 +5,11 @@
 
 #parent {
   background: #333;
+
   height: 500px;
   width: 500px;
-  position: relative;
+  position: sticky;
+  top: 10px;
 }
 
 .box {
@@ -15,23 +17,17 @@
   width: 100px;
 }
 
-/* position absolute */
-/* element moves in relation to the viewport (by default) , but can be changed (by giving a position to the parent) */
-/* element doesn't remains part of document flow */
+/* position: sticky makes the parent stick to the viewport when it reaches 10px from the top while scrolling.
+Stays in the document flow but sticks relative to the viewport (or nearest positioned ancestor, if any).
+Without a positioned parent or specific context, it sticks based on the viewport. */
 
 .b1 {
   background-color: turquoise;
 }
 .b2 {
   background-color: wheat;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 .b3 {
-  position: absolute;
-  top: 0;
-  right: 0;
   background-color: tomato;
 }
 .b4 {
