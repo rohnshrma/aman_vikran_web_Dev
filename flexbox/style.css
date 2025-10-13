@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* flexbox */
+
+#parent {
+  padding: 1rem;
+  background-color: grey;
+  display: flex;
+
+  /* manage horizontal space : start, end , center , space-around, space-between and space evenly */
+  justify-content: space-between;
+  /* manage vertical space : stretch by default (if no heeight is given to children) */
+  /* start ,end ,center , first baseline and last baseline */
+  align-items: center;
+
+  /* flex wrap : no wrap (Default) , wrap and wwrap reverse */
+
+  /* forces flex to maintain the width given */
+  flex-wrap: wrap;
+
+  /* flex direction : row (default) , row-reverse , column , column-reverse */
+  flex-direction: column-reverse;
+}
+
+.child {
+  width: 250px;
+  /* height: 100px; */
+}
+.c1 {
+  background-color: wheat;
+  height: 200px;
+}
+.c2 {
+  background-color: teal;
+  height: 400px;
+}
+.c3 {
+  background-color: tomato;
+  height: 300px;
+}
